@@ -1,4 +1,4 @@
-# Zero AI
+# LibraryX
 
 ### Install dependencies
 
