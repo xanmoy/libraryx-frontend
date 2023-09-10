@@ -103,7 +103,7 @@ export const Navbar = () => {
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
 						<GithubIcon className="text-default-500" />
 					</Link> */}
-					 <Input
+					 {/* <Input
           classNames={{
             base: "max-w-full sm:max-w-[10rem] h-10",
             mainWrapper: "h-full",
@@ -114,7 +114,8 @@ export const Navbar = () => {
           size="sm"
           startContent={<SearchIcon size={18} />}
           type="search"
-        />
+        /> */}
+		{searchInput}
 					
 
 					
@@ -147,7 +148,7 @@ export const Navbar = () => {
 				{/* <Link isExternal href={siteConfig.links.github} aria-label="Github">
 					<GithubIcon className="text-default-500" />
 				</Link> */}
-				 <Input
+				 {/* <Input
           classNames={{
             base: "max-w-full sm:max-w-[10rem] h-10",
             mainWrapper: "h-full",
@@ -158,7 +159,7 @@ export const Navbar = () => {
           size="sm"
           startContent={<SearchIcon size={18} />}
           type="search"
-        />
+        /> */}
 				
 
 				{/* <a
@@ -176,7 +177,7 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarMenu>
-				{/* {searchInput} */}
+				{searchInput}
 				<div className="flex flex-col gap-2 mx-4 mt-2">
 					{siteConfig.navMenuItems.map((item, index) => (
 						<NavbarMenuItem key={`${item}-${index}`}>

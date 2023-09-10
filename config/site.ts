@@ -35,8 +35,8 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
-			label: "Dashbord",
-			href: "/dashbord",
+			label: "Dashboard",
+			href: "/dashboard",
 		},
 		{
 			label: "Transaction",
@@ -46,14 +46,14 @@ export const siteConfig = {
 			label: "Books",
 			href: "/books",
 		},
-		// {
-		// 	label: "Safety",
-		// 	href: "/safety",
-		// },
 		{
 			label: "About",
 			href: "/about",
-		}
+		},
+		{
+			label: "Logout",
+			href: "/logout",
+		},
 	],
 	links: {
 		github: "https://github.com/nextui-org/nextui",
