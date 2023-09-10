@@ -1,0 +1,70 @@
+<footer className="w-full flex items-center justify-center py-3">
+							<Link
+								isExternal
+								className="flex items-center gap-1 text-current"
+								href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
+								title="nextui.org homepage"
+							>
+								<span className="text-default-600">Powered by</span>
+								<p className="text-primary">NextUI</p>
+							</Link>
+						</footer>
+
+
+	================ home ===============
+
+<div className="inline-block max-w-lg text-center justify-center">
+				<h1 className={title()}>Connect your&nbsp;</h1>
+				<h1 className={title({ color: "violet" })}>Labs & Medical Stores&nbsp;</h1>
+				<br />
+				<h1 className={title()}>
+					with Lab2Get
+				</h1>
+				<h2 className={subtitle({ class: "mt-4" })}>
+					Lab2Get .inc
+				</h2>
+			</div>
+
+			<div className="flex gap-3">
+				<Link
+					isExternal
+					as={NextLink}
+					href={siteConfig.links.docs}
+					className={buttonStyles({ color: "warning", radius: "full", variant: "shadow" })}
+				>
+					Labs
+				</Link>
+				<Link
+					isExternal
+					as={NextLink}
+					href={siteConfig.links.docs}
+					className={buttonStyles({ color: "success", radius: "full", variant: "shadow" })}
+				>
+					Med Stores
+				</Link>
+				{/* <Link
+					isExternal
+					as={NextLink}
+					className={buttonStyles({ variant: "bordered", radius: "full" })}
+					href={siteConfig.links.github}
+				>
+					<GithubIcon size={20} />
+					GitHub
+				</Link> */}
+			</div>
+
+			<div className="mt-8">
+				<Snippet hideSymbol hideCopyButton variant="flat">
+					<span>
+						Become a Delivary Partner <Code color="primary">Join us</Code>
+					</span>
+				</Snippet>
+			</div>
+
+
+
+				================ home ===============
+
+
+
+

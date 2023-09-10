@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.info{
+    background-color: #10847e;
+}
+.text-info{
+    color: #10847e;
+}
