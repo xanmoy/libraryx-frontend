@@ -7,6 +7,7 @@ import {
 	NavbarItem,
 	NavbarMenuItem,
 } from "@nextui-org/navbar";
+// import {DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar} from "@nextui-org/react";
 import { Button } from "@nextui-org/button";
 import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
@@ -63,7 +64,7 @@ export const Navbar = () => {
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex items-center justify-start gap-1" href="/">
 						{/* <Image width={50} height={50} src="/Logo.png" alt="logo" /> */}
-						<p className="font-bold text-inherit">ZERO A.I</p>
+						<p className="font-bold text-inherit">LibraryX</p>
 					</NextLink>
 				</NavbarBrand>
 				<ul className="justify-start hidden gap-4 ml-2 lg:flex">
@@ -82,6 +83,7 @@ export const Navbar = () => {
 						</NavbarItem>
 					))}
 				</ul>
+				
 			</NavbarContent>
 
 			<NavbarContent
@@ -89,7 +91,7 @@ export const Navbar = () => {
 				justify="end"
 			>
 				<NavbarItem className="hidden gap-2 sm:flex">
-					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
+					{/* <Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
 
 					</Link>
 					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
@@ -100,13 +102,27 @@ export const Navbar = () => {
 					</Link>
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
 						<GithubIcon className="text-default-500" />
-					</Link>
+					</Link> */}
+					 <Input
+          classNames={{
+            base: "max-w-full sm:max-w-[10rem] h-10",
+            mainWrapper: "h-full",
+            input: "text-small",
+            inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
+          }}
+          placeholder="Type to search..."
+          size="sm"
+          startContent={<SearchIcon size={18} />}
+          type="search"
+        />
+					
+
 					
 					<ThemeSwitch />
 				</NavbarItem>
 				{/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
 				<NavbarItem className="hidden md:flex">
-					<Button
+					{/* <Button
             isExternal
 						as={Link}
 						className="text-sm font-normal text-default-600 bg-default-100"
@@ -115,7 +131,7 @@ export const Navbar = () => {
 						variant="flat"
 					>
 						Sponsor
-					</Button>
+					</Button> */}
 
 					{/* <Button as={Link} color="dark" className="text-success" href="#" variant="flat">
 						Login
@@ -128,10 +144,33 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarContent className="pl-4 sm:hidden basis-1" justify="end">
-				<Link isExternal href={siteConfig.links.github} aria-label="Github">
+				{/* <Link isExternal href={siteConfig.links.github} aria-label="Github">
 					<GithubIcon className="text-default-500" />
-				</Link>
+				</Link> */}
+				 <Input
+          classNames={{
+            base: "max-w-full sm:max-w-[10rem] h-10",
+            mainWrapper: "h-full",
+            input: "text-small",
+            inputWrapper: "h-full font-normal text-default-500 bg-default-400/20 dark:bg-default-500/20",
+          }}
+          placeholder="Search books..."
+          size="sm"
+          startContent={<SearchIcon size={18} />}
+          type="search"
+        />
 				
+
+				{/* <a
+              isBordered
+              as="button"
+              className="transition-transform"
+              color="secondary"
+              name="Jason Hughes"
+              size="sm"
+              src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+            /> */}
+
 				<ThemeSwitch />
 				<NavbarMenuToggle />
 			</NavbarContent>

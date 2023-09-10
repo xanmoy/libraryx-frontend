@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "ZERO A.I",
+	name: "LibraryX",
 	description: "Developing safe & responsible AI.",
 	navItems: [
 		{
@@ -9,21 +9,21 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
-			label: "Research",
-			href: "/research",
+			label: "Dashboard",
+			href: "/dashboard",
 		},
 		{
-			label: "Blog",
-			href: "/blog",
+			label: "Transaction",
+			href: "/transaction",
 		},
 		{
-			label: "Products",
-			href: "/orders",
+			label: "Books",
+			href: "/books",
 		},
-		{
-			label: "Safety",
-			href: "/safety",
-		},
+		// {
+		// 	label: "Safety",
+		// 	href: "/safety",
+		// },
 		{
 			label: "About",
 			href: "/about",
@@ -35,21 +35,21 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
-			label: "Research",
-			href: "/research",
+			label: "Dashbord",
+			href: "/dashbord",
 		},
 		{
-			label: "Blog",
-			href: "/blog",
+			label: "Transaction",
+			href: "/transaction",
 		},
 		{
-			label: "Products",
-			href: "/orders",
+			label: "Books",
+			href: "/books",
 		},
-		{
-			label: "Safety",
-			href: "/safety",
-		},
+		// {
+		// 	label: "Safety",
+		// 	href: "/safety",
+		// },
 		{
 			label: "About",
 			href: "/about",

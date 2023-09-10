@@ -4,7 +4,7 @@ export default function Footer() {
   return (
    
 
-<footer className="bg-white dark:bg-zinc-900">
+<footer className="bg-slate-200 dark:bg-zinc-900">
     <div className="mx-auto w-full max-w-screen-xl">
       <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
@@ -74,7 +74,7 @@ export default function Footer() {
         </div>
     </div>
     <div className="px-4 py-6 bg-nobg-100 dark:bg-nobg-700 md:flex md:items-center md:justify-between">
-        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="/">Zero A.I</a>. All Rights Reserved.
+        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="/">Library X</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-5 sm:justify-center md:mt-0">
             <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
