@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
 	name: "LibraryX",
-	description: "Developing safe & responsible AI.",
+	description: "Online Library Management System",
 	navItems: [
 		{
 			label: "Home",
