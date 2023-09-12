@@ -10,7 +10,7 @@ import { GithubIcon } from "@/components/icons";
 import { Inter } from 'next/font/google'
 import styled from 'styled-components';
 // import {Card, CardFooter, Image, Button} from "@nextui-org/react";
-import {Card, CardHeader, CardBody, CardFooter, Image, Button} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Avatar, Image, Button} from "@nextui-org/react";
 import {Textarea} from "@nextui-org/react";
 
 export default function Home() {
